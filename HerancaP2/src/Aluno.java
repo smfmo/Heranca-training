@@ -4,7 +4,8 @@ public class Aluno extends Pessoa{
 
     //métodos
     public void pagarMensal(){
-
+        System.out.println("===PAGAMENTO DA MENSALIDADE===");
+        System.out.println(this.getNome() + " está pagando a mensalidade!");
     }
 
     //métodos acessores

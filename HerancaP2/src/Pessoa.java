@@ -34,4 +34,13 @@ abstract class Pessoa {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{\n" +
+                "nome='" + nome + '\'' +
+                "\n idade=" + idade +
+                "\n sexo='" + sexo + '\'' +
+                '}';
+    }
 }
